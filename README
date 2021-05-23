@@ -1,0 +1,6 @@
+1. cp lbpcascade_frontalface.xml /root 
+2. cp haarcascade_frontalface_alt2.xml /usr/bin
+3. cp Opencv libaries to /usr/lib
+4. Iam sending Captured image to ftp://115.111.229.10 
+   username:rnd
+   password:rnd123

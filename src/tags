@@ -1,0 +1,188 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ApplicationWindow	qv4l2.cpp	/^ApplicationWindow::ApplicationWindow() :$/;"	f	class:ApplicationWindow
+CaptureWin	capture-win.cpp	/^CaptureWin::CaptureWin()$/;"	f	class:CaptureWin
+DisplayPopup	qv4l2.cpp	/^void ApplicationWindow::DisplayPopup()$/;"	f	class:ApplicationWindow
+FaceAuthentication	FaceAuthentication.cpp	/^FaceAuthentication::FaceAuthentication(QWidget *parent) :$/;"	f	class:FaceAuthentication
+FaceDetect	facedetect.cpp	/^FaceDetect::FaceDetect()$/;"	f	class:FaceDetect
+FaceRec	facerecognize.cpp	/^FaceRec::FaceRec()$/;"	f	class:FaceRec
+GeneralTab	general-tab.cpp	/^GeneralTab::GeneralTab(const QString &device, v4l2 &fd, int n, QWidget *parent) :$/;"	f	class:GeneralTab
+PopupFlag	qv4l2.cpp	/^int PopupFlag=0;$/;"	v
+QImageToIplImage	qv4l2.cpp	/^IplImage *ApplicationWindow::QImageToIplImage(const QImage * qImage)$/;"	f	class:ApplicationWindow
+QextSerialBase	qextserialbase.cpp	/^QextSerialBase::QextSerialBase()$/;"	f	class:QextSerialBase
+QextSerialBase	qextserialbase.cpp	/^QextSerialBase::QextSerialBase(const QString & name)$/;"	f	class:QextSerialBase
+ShowImage	qv4l2.cpp	/^void ApplicationWindow::ShowImage()$/;"	f	class:ApplicationWindow
+Thread	thread.cpp	/^Thread::Thread(QObject *parent)$/;"	f	class:Thread
+VideoDevice	videodevice.cpp	/^VideoDevice::VideoDevice(QString dev_name)$/;"	f	class:VideoDevice
+about	qv4l2.cpp	/^void ApplicationWindow::about()$/;"	f	class:ApplicationWindow
+actionToexternalCam	FaceAuthentication.cpp	/^void FaceAuthentication ::actionToexternalCam()$/;"	f	class:FaceAuthentication
+addCtrl	ctrl-tab.cpp	/^void ApplicationWindow::addCtrl(QGridLayout *grid, const v4l2_queryctrl &qctrl)$/;"	f	class:ApplicationWindow
+addTabs	ctrl-tab.cpp	/^void ApplicationWindow::addTabs()$/;"	f	class:ApplicationWindow
+addWidget	ctrl-tab.cpp	/^void ApplicationWindow::addWidget(QGridLayout *grid, QWidget *w, Qt::Alignment align)$/;"	f	class:ApplicationWindow
+atEnd	qextserialbase.cpp	/^bool QextSerialBase::atEnd() const$/;"	f	class:QextSerialBase
+average	facerecognize.cpp	/^double FaceRec::average(vector<double> personConfi)$/;"	f	class:FaceRec
+baudRate	qextserialbase.cpp	/^BaudRateType QextSerialBase::baudRate(void) const$/;"	f	class:QextSerialBase
+blinkCount1	qv4l2.cpp	/^int blinkCount1=0;$/;"	v
+blinkFlag	facedetect.cpp	/^int blinkFlag=0,eyeClosedFlag=0;$/;"	v
+capFrame	qv4l2.cpp	/^void ApplicationWindow::capFrame()$/;"	f	class:ApplicationWindow
+capMethod	general-tab.cpp	/^CapMethod GeneralTab::capMethod()$/;"	f	class:GeneralTab
+capStart	qv4l2.cpp	/^void ApplicationWindow::capStart(bool start)$/;"	f	class:ApplicationWindow
+captureflag	qv4l2.cpp	/^int countflag=0,captureflag=0;$/;"	v
+cascadeName	facedetect.cpp	/^QString FaceDetect::cascadeName() const {$/;"	f	class:FaceDetect
+close1	v4l2-api.cpp	/^void v4l2::close1()$/;"	f	class:v4l2
+closeApp	qv4l2.cpp	/^void ApplicationWindow::closeApp()$/;"	f	class:ApplicationWindow
+closeCaptureWin	qv4l2.cpp	/^void ApplicationWindow::closeCaptureWin()$/;"	f	class:ApplicationWindow
+closeDevice	qv4l2.cpp	/^void ApplicationWindow::closeDevice()$/;"	f	class:ApplicationWindow
+closeEvent	capture-win.cpp	/^void CaptureWin::closeEvent(QCloseEvent *event)$/;"	f	class:CaptureWin
+closeEvent	qv4l2.cpp	/^void ApplicationWindow::closeEvent(QCloseEvent *event)$/;"	f	class:ApplicationWindow
+close_device	videodevice.cpp	/^int VideoDevice::close_device()$/;"	f	class:VideoDevice
+compute_EAR	qv4l2.cpp	/^double ApplicationWindow::compute_EAR(std::vector<cv::Point> vec)$/;"	f	class:ApplicationWindow
+construct	qextserialbase.cpp	/^void QextSerialBase::construct()$/;"	f	class:QextSerialBase
+convert_qimage_to_iplimage	qv4l2.cpp	/^void ApplicationWindow::convert_qimage_to_iplimage(QImage* qImage,IplImage* cvimg)$/;"	f	class:ApplicationWindow
+count	qv4l2.cpp	/^int count=0;\/\/how many blinks we want to give$/;"	v
+countflag	qv4l2.cpp	/^int countflag=0,captureflag=0;$/;"	v
+ctrlAction	ctrl-tab.cpp	/^void ApplicationWindow::ctrlAction(int id)$/;"	f	class:ApplicationWindow
+dataBits	qextserialbase.cpp	/^DataBitsType QextSerialBase::dataBits() const$/;"	f	class:QextSerialBase
+detectFaces	facedetect.cpp	/^QVector<QRect> FaceDetect::detectFaces(IplImage *cvImage) {$/;"	f	class:FaceDetect
+doPCA	facerecognize.cpp	/^void FaceRec::doPCA()$/;"	f	class:FaceRec
+dqbuf_mmap_cap	v4l2-api.cpp	/^bool v4l2::dqbuf_mmap_cap(v4l2_buffer &buf)$/;"	f	class:v4l2
+dqbuf_mmap_out	v4l2-api.cpp	/^bool v4l2::dqbuf_mmap_out(v4l2_buffer &buf)$/;"	f	class:v4l2
+dqbuf_user_cap	v4l2-api.cpp	/^bool v4l2::dqbuf_user_cap(v4l2_buffer &buf)$/;"	f	class:v4l2
+dqbuf_user_out	v4l2-api.cpp	/^bool v4l2::dqbuf_user_out(v4l2_buffer &buf)$/;"	f	class:v4l2
+dynamicblinkFlag	qv4l2.cpp	/^int dynamicblinkFlag=0;$/;"	v
+empId	FaceAuthentication.cpp	/^QString empId;$/;"	v
+enum_audio	v4l2-api.cpp	/^bool v4l2::enum_audio(v4l2_audio &audio, bool init)$/;"	f	class:v4l2
+enum_audout	v4l2-api.cpp	/^bool v4l2::enum_audout(v4l2_audioout &audout, bool init)$/;"	f	class:v4l2
+enum_fmt_cap	v4l2-api.cpp	/^bool v4l2::enum_fmt_cap(v4l2_fmtdesc &fmt, bool init, int index)$/;"	f	class:v4l2
+enum_fmt_out	v4l2-api.cpp	/^bool v4l2::enum_fmt_out(v4l2_fmtdesc &fmt, bool init, int index)$/;"	f	class:v4l2
+enum_frameintervals	v4l2-api.cpp	/^bool v4l2::enum_frameintervals(v4l2_frmivalenum &frm, __u32 init_pixfmt, __u32 w, __u32 h, int index)$/;"	f	class:v4l2
+enum_framesizes	v4l2-api.cpp	/^bool v4l2::enum_framesizes(v4l2_frmsizeenum &frm, __u32 init_pixfmt, int index)$/;"	f	class:v4l2
+enum_input	v4l2-api.cpp	/^bool v4l2::enum_input(v4l2_input &in, bool init)$/;"	f	class:v4l2
+enum_output	v4l2-api.cpp	/^bool v4l2::enum_output(v4l2_output &out, bool init)$/;"	f	class:v4l2
+enum_std	v4l2-api.cpp	/^bool v4l2::enum_std(v4l2_standard &std, bool init, int index)$/;"	f	class:v4l2
+error	qv4l2.cpp	/^void ApplicationWindow::error(const QString &error)$/;"	f	class:ApplicationWindow
+error	qv4l2.cpp	/^void ApplicationWindow::error(int err)$/;"	f	class:ApplicationWindow
+error	v4l2-api.cpp	/^void v4l2::error(const QString &error)$/;"	f	class:v4l2
+errorCtrl	qv4l2.cpp	/^void ApplicationWindow::errorCtrl(unsigned id, int err)$/;"	f	class:ApplicationWindow
+errorCtrl	qv4l2.cpp	/^void ApplicationWindow::errorCtrl(unsigned id, int err, long long v)$/;"	f	class:ApplicationWindow
+eyeClosedFlag	facedetect.cpp	/^int blinkFlag=0,eyeClosedFlag=0;$/;"	v
+eyeblink	qv4l2.cpp	/^int eyeblink=0,ij=0;$/;"	v
+facesdetect	facedetect.cpp	/^cv::Rect FaceDetect::facesdetect(IplImage *cImg)$/;"	f	class:FaceDetect
+findNearestNeighbor	facerecognize.cpp	/^int FaceRec::findNearestNeighbor(float * projectedTestFace)$/;"	f	class:FaceRec
+finishGrid	ctrl-tab.cpp	/^void ApplicationWindow::finishGrid(QGridLayout *grid, unsigned ctrl_class)$/;"	f	class:ApplicationWindow
+flowControl	qextserialbase.cpp	/^FlowType QextSerialBase::flowControl() const$/;"	f	class:QextSerialBase
+frameSizeChanged	general-tab.cpp	/^void GeneralTab::frameSizeChanged(int idx)$/;"	f	class:GeneralTab
+g_audio	v4l2-api.cpp	/^bool v4l2::g_audio(v4l2_audio &audio)$/;"	f	class:v4l2
+g_audout	v4l2-api.cpp	/^bool v4l2::g_audout(v4l2_audioout &audout)$/;"	f	class:v4l2
+g_fmt_cap	v4l2-api.cpp	/^bool v4l2::g_fmt_cap(v4l2_format &fmt)$/;"	f	class:v4l2
+g_fmt_out	v4l2-api.cpp	/^bool v4l2::g_fmt_out(v4l2_format &fmt)$/;"	f	class:v4l2
+g_frequency	v4l2-api.cpp	/^bool v4l2::g_frequency(v4l2_frequency &freq)$/;"	f	class:v4l2
+g_input	v4l2-api.cpp	/^bool v4l2::g_input(int &input)$/;"	f	class:v4l2
+g_mw	qv4l2.cpp	/^ApplicationWindow *g_mw;$/;"	v
+g_output	v4l2-api.cpp	/^bool v4l2::g_output(int &output)$/;"	f	class:v4l2
+g_std	v4l2-api.cpp	/^bool v4l2::g_std(v4l2_std_id &std)$/;"	f	class:v4l2
+g_tuner	v4l2-api.cpp	/^bool v4l2::g_tuner(v4l2_tuner &tuner)$/;"	f	class:v4l2
+getCtrlFlags	ctrl-tab.cpp	/^QString ApplicationWindow::getCtrlFlags(unsigned flags)$/;"	f	class:ApplicationWindow
+getVal	ctrl-tab.cpp	/^int ApplicationWindow::getVal(unsigned id)$/;"	f	class:ApplicationWindow
+getVal64	ctrl-tab.cpp	/^long long ApplicationWindow::getVal64(unsigned id)$/;"	f	class:ApplicationWindow
+get_frame	videodevice.cpp	/^int VideoDevice::get_frame(void **frame_buf, size_t* len)$/;"	f	class:VideoDevice
+ij	qv4l2.cpp	/^int eyeblink=0,ij=0;$/;"	v
+imageProcessing	FaceAuthentication.cpp	/^void FaceAuthentication::imageProcessing()$/;"	f	class:FaceAuthentication
+info	qv4l2.cpp	/^void ApplicationWindow::info(const QString &info)$/;"	f	class:ApplicationWindow
+init_device	videodevice.cpp	/^int VideoDevice::init_device()$/;"	f	class:VideoDevice
+init_mmap	videodevice.cpp	/^int VideoDevice::init_mmap()$/;"	f	class:VideoDevice
+ioctl	v4l2-api.cpp	/^bool v4l2::ioctl(const QString &descr, unsigned cmd, void *arg)$/;"	f	class:v4l2
+ioctl	v4l2-api.cpp	/^int v4l2::ioctl(unsigned cmd, void *arg)$/;"	f	class:v4l2
+isSequential	qextserialbase.cpp	/^bool QextSerialBase::isSequential() const$/;"	f	class:QextSerialBase
+lastError	qextserialbase.cpp	/^ulong QextSerialBase::lastError() const$/;"	f	class:QextSerialBase
+learn	facerecognize.cpp	/^void FaceRec::learn()$/;"	f	class:FaceRec
+loadFaceImgArray	facerecognize.cpp	/^int FaceRec::loadFaceImgArray(const char* filename)$/;"	f	class:FaceRec
+loadTrainingData	facerecognize.cpp	/^int FaceRec::loadTrainingData(CvMat ** pTrainPersonNumMat)$/;"	f	class:FaceRec
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+mmap	v4l2-api.cpp	/^void *v4l2::mmap(size_t length, __off64_t offset)$/;"	f	class:v4l2
+munmap	v4l2-api.cpp	/^int v4l2::munmap(void *start, size_t length)$/;"	f	class:v4l2
+on_firstImgBtn_clicked	FaceAuthentication.cpp	/^void FaceAuthentication::on_firstImgBtn_clicked()$/;"	f	class:FaceAuthentication
+on_pushButton_2_clicked	FaceAuthentication.cpp	/^void FaceAuthentication::on_pushButton_2_clicked()$/;"	f	class:FaceAuthentication
+open	v4l2-api.cpp	/^bool v4l2::open(const QString &device, bool useWrapper)$/;"	f	class:v4l2
+open_device	videodevice.cpp	/^int VideoDevice::open_device()$/;"	f	class:VideoDevice
+openrawdev	qv4l2.cpp	/^void ApplicationWindow::openrawdev()$/;"	f	class:ApplicationWindow
+paintEvent	qv4l2.cpp	/^void ApplicationWindow::paintEvent(QPaintEvent *)$/;"	f	class:ApplicationWindow
+paintRun	qv4l2.cpp	/^void ApplicationWindow::paintRun()$/;"	f	class:ApplicationWindow
+parity	qextserialbase.cpp	/^ParityType QextSerialBase::parity() const$/;"	f	class:QextSerialBase
+pixfmt2s	v4l2-api.cpp	/^QString v4l2::pixfmt2s(unsigned id)$/;"	f	class:v4l2
+portName	qextserialbase.cpp	/^QString QextSerialBase::portName() const$/;"	f	class:QextSerialBase
+processEvents	FaceAuthentication.cpp	/^void FaceAuthentication::processEvents(int seconds)$/;"	f	class:FaceAuthentication
+pushButton_clicked	FaceAuthentication.cpp	/^void FaceAuthentication::pushButton_clicked()$/;"	f	class:FaceAuthentication
+qbuf	v4l2-api.cpp	/^bool v4l2::qbuf(v4l2_buffer &buf)$/;"	f	class:v4l2
+qbuf_mmap_cap	v4l2-api.cpp	/^bool v4l2::qbuf_mmap_cap(int index)$/;"	f	class:v4l2
+qbuf_mmap_out	v4l2-api.cpp	/^bool v4l2::qbuf_mmap_out(int index, int bytesused)$/;"	f	class:v4l2
+qbuf_user_cap	v4l2-api.cpp	/^bool v4l2::qbuf_user_cap(int index, void *ptr, int length)$/;"	f	class:v4l2
+qbuf_user_out	v4l2-api.cpp	/^bool v4l2::qbuf_user_out(void *ptr, int length)$/;"	f	class:v4l2
+querycap	v4l2-api.cpp	/^bool v4l2::querycap(v4l2_capability &cap)$/;"	f	class:v4l2
+queryctrl	v4l2-api.cpp	/^bool v4l2::queryctrl(v4l2_queryctrl &qc)$/;"	f	class:v4l2
+querymenu	v4l2-api.cpp	/^bool v4l2::querymenu(v4l2_querymenu &qm)$/;"	f	class:v4l2
+read	v4l2-api.cpp	/^int v4l2::read(unsigned char *p, int size)$/;"	f	class:v4l2
+readLine	qextserialbase.cpp	/^qint64 QextSerialBase::readLine(char * data, qint64 maxSize)$/;"	f	class:QextSerialBase
+recFromFrame	facerecognize.cpp	/^int FaceRec::recFromFrame(IplImage *faceImage)$/;"	f	class:FaceRec
+refresh	ctrl-tab.cpp	/^void ApplicationWindow::refresh(unsigned ctrl_class)$/;"	f	class:ApplicationWindow
+reqbufs_mmap_cap	v4l2-api.cpp	/^bool v4l2::reqbufs_mmap_cap(v4l2_requestbuffers &reqbuf, int count)$/;"	f	class:v4l2
+reqbufs_mmap_out	v4l2-api.cpp	/^bool v4l2::reqbufs_mmap_out(v4l2_requestbuffers &reqbuf, int count)$/;"	f	class:v4l2
+reqbufs_user_cap	v4l2-api.cpp	/^bool v4l2::reqbufs_user_cap(v4l2_requestbuffers &reqbuf, int count)$/;"	f	class:v4l2
+reqbufs_user_out	v4l2-api.cpp	/^bool v4l2::reqbufs_user_out(v4l2_requestbuffers &reqbuf)$/;"	f	class:v4l2
+result	qv4l2.cpp	/^bool result=false;$/;"	v
+run	qv4l2.cpp	/^void FaceDetectThread::run()$/;"	f	class:FaceDetectThread
+run	showthread.cpp	/^void showThread::run()$/;"	f	class:showThread
+run	thread.cpp	/^void Thread::run()$/;"	f	class:Thread
+runSIFT	FaceAuthentication.cpp	/^void FaceAuthentication::runSIFT(QString secondImgText)$/;"	f	class:FaceAuthentication
+runSURF	FaceAuthentication.cpp	/^void FaceAuthentication::runSURF(QString secondImgText)$/;"	f	class:FaceAuthentication
+s_audio	v4l2-api.cpp	/^bool v4l2::s_audio(int input)$/;"	f	class:v4l2
+s_audout	v4l2-api.cpp	/^bool v4l2::s_audout(int output)$/;"	f	class:v4l2
+s_fmt	v4l2-api.cpp	/^bool v4l2::s_fmt(v4l2_format &fmt)$/;"	f	class:v4l2
+s_frequency	v4l2-api.cpp	/^bool v4l2::s_frequency(int val)$/;"	f	class:v4l2
+s_frequency	v4l2-api.cpp	/^bool v4l2::s_frequency(v4l2_frequency &freq)$/;"	f	class:v4l2
+s_input	v4l2-api.cpp	/^bool v4l2::s_input(int input)$/;"	f	class:v4l2
+s_output	v4l2-api.cpp	/^bool v4l2::s_output(int output)$/;"	f	class:v4l2
+s_std	v4l2-api.cpp	/^bool v4l2::s_std(v4l2_std_id std)$/;"	f	class:v4l2
+sample	qv4l2.cpp	/^void ApplicationWindow::sample()$/;"	f	class:ApplicationWindow
+setCascadeFile	facedetect.cpp	/^void FaceDetect::setCascadeFile(QString cascadeFrom) {$/;"	f	class:FaceDetect
+setCheck	qv4l2.cpp	/^void ApplicationWindow::setCheck()$/;"	f	class:ApplicationWindow
+setDefaults	ctrl-tab.cpp	/^void ApplicationWindow::setDefaults(unsigned ctrl_class)$/;"	f	class:ApplicationWindow
+setDevice	qv4l2.cpp	/^void ApplicationWindow::setDevice(const QString &device, bool rawOpen)$/;"	f	class:ApplicationWindow
+setFlags	facedetect.cpp	/^void FaceDetect::setFlags(int flagsFrom) {$/;"	f	class:FaceDetect
+setImage	capture-win.cpp	/^void CaptureWin::setImage(const QImage &image, bool init)$/;"	f	class:CaptureWin
+setPortName	qextserialbase.cpp	/^void QextSerialBase::setPortName(const QString & name)$/;"	f	class:QextSerialBase
+setQueryMode	qextserialbase.cpp	/^void QextSerialBase::setQueryMode(QueryMode mechanism)$/;"	f	class:QextSerialBase
+setVal	ctrl-tab.cpp	/^void ApplicationWindow::setVal(unsigned id, int v)$/;"	f	class:ApplicationWindow
+setVal64	ctrl-tab.cpp	/^void ApplicationWindow::setVal64(unsigned id, long long v)$/;"	f	class:ApplicationWindow
+setWhat	ctrl-tab.cpp	/^void ApplicationWindow::setWhat(QWidget *w, unsigned id, long long v)$/;"	f	class:ApplicationWindow
+showPopup	FaceAuthentication.cpp	/^QLabel * FaceAuthentication::showPopup(QString message)$/;"	f	class:FaceAuthentication
+showThread	showthread.cpp	/^showThread::showThread(QObject *parent)$/;"	f	class:showThread
+slot_takePhoto	FaceAuthentication.cpp	/^void FaceAuthentication :: slot_takePhoto()$/;"	f	class:FaceAuthentication
+startCapture	qv4l2.cpp	/^bool ApplicationWindow::startCapture(unsigned buffer_size)$/;"	f	class:ApplicationWindow
+startOutput	qv4l2.cpp	/^void ApplicationWindow::startOutput(unsigned)$/;"	f	class:ApplicationWindow
+start_capturing	videodevice.cpp	/^int VideoDevice::start_capturing()$/;"	f	class:VideoDevice
+stop	capture-win.cpp	/^void CaptureWin::stop()$/;"	f	class:CaptureWin
+stopBits	qextserialbase.cpp	/^StopBitsType QextSerialBase::stopBits() const$/;"	f	class:QextSerialBase
+stopCapture	qv4l2.cpp	/^void ApplicationWindow::stopCapture()$/;"	f	class:ApplicationWindow
+stopOutput	qv4l2.cpp	/^void ApplicationWindow::stopOutput()$/;"	f	class:ApplicationWindow
+stop_capturing	videodevice.cpp	/^int VideoDevice::stop_capturing()$/;"	f	class:VideoDevice
+storeTrainingData	facerecognize.cpp	/^void FaceRec::storeTrainingData()$/;"	f	class:FaceRec
+streamoff_cap	v4l2-api.cpp	/^bool v4l2::streamoff_cap()$/;"	f	class:v4l2
+streamoff_out	v4l2-api.cpp	/^bool v4l2::streamoff_out()$/;"	f	class:v4l2
+streamon_cap	v4l2-api.cpp	/^bool v4l2::streamon_cap()$/;"	f	class:v4l2
+streamon_out	v4l2-api.cpp	/^bool v4l2::streamon_out()$/;"	f	class:v4l2
+try_fmt	v4l2-api.cpp	/^bool v4l2::try_fmt(v4l2_format &fmt)$/;"	f	class:v4l2
+unget_frame	videodevice.cpp	/^int VideoDevice::unget_frame()$/;"	f	class:VideoDevice
+uninit_device	videodevice.cpp	/^int VideoDevice::uninit_device()$/;"	f	class:VideoDevice
+unloadTrainingdata	facerecognize.cpp	/^void FaceRec::unloadTrainingdata()$/;"	f	class:FaceRec
+update	capture-win.cpp	/^void CaptureWin::update()$/;"	f	class:CaptureWin
+updateCtrl	ctrl-tab.cpp	/^void ApplicationWindow::updateCtrl(unsigned id)$/;"	f	class:ApplicationWindow
+updateFrameSize	general-tab.cpp	/^void GeneralTab::updateFrameSize(unsigned w, unsigned h)$/;"	f	class:GeneralTab
+~FaceAuthentication	FaceAuthentication.cpp	/^FaceAuthentication::~FaceAuthentication()$/;"	f	class:FaceAuthentication
+~FaceDetect	facedetect.cpp	/^FaceDetect::~FaceDetect() {$/;"	f	class:FaceDetect
+~FaceRec	facerecognize.cpp	/^FaceRec::~FaceRec()$/;"	f	class:FaceRec
+~QextSerialBase	qextserialbase.cpp	/^QextSerialBase::~QextSerialBase()$/;"	f	class:QextSerialBase

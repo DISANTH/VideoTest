@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>IMAGES/cross1.jpeg</file>
+        <file>IMAGES/35-backspace.png</file>
+    </qresource>
+</RCC>
