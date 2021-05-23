@@ -13,7 +13,7 @@ int main() {
     //////////////////// Added Part
     time_t start, end;
     //////////////////// Added Part
-    VideoCapture vcap(0);
+    VideoCapture vcap("/dev/video2");
     if (!vcap.isOpened()) {
         cout << "Error opening video stream or file" << endl;
         return -1;
